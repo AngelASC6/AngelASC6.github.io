@@ -20,6 +20,16 @@ const BAR_INCRAMENT = (100/pages.length)
 pageNumber = 1;
 
 
+    // Show the pop-up when the page loads
+    window.onload = function() {
+        document.getElementById("popupOverlay").style.display = "flex";
+    };
+
+    // Close the pop-up when the "Close" button is clicked
+    document.getElementById("closePopup").onclick = function() {
+        document.getElementById("popupOverlay").style.display = "none";
+    };
+
 // Function Declerations
 
 // Adds the animate class to an object and removes it

@@ -1,0 +1,79 @@
+{
+    "experience": [
+      {
+        "company": "Wegmans Food Markets",
+        "location": "Rochester, NY",
+        "position": "IT Automation Co-Op",
+        "startDate": "June 2023",
+        "endDate": "December 2023",
+        "responsibilities": [
+          "Implemented automation using XSLT and XPATH to streamline business processes",
+          "Worked with XML and JSON data structures to manage user and form input data",
+          "Conducted process review, technical documentation, application administration, and testing, in collaboration with the IT team"
+        ],
+        "skills": [
+            "Azure DevOps",
+            "XSLT",
+            "XPATH",
+            "XML",
+            "JSON",
+            "Process Automation",
+            "Linux",
+            "API Design and Integration",
+            "Agile Development",
+            "Scrum"
+        ],
+        "relevant": true
+      },
+      {
+        "company": "Rochester Institute of Technology",
+        "location": "Rochester, NY",
+        "position": "Alumni Relations Office Call Center",
+        "startDate": "September 2022",
+        "endDate": "May 2023",
+        "responsibilities": [
+          "Contacted alumni of the school to raise money, raising on average $61 per hour for the school"
+        ],
+        "relevant": false
+      },
+      {
+        "company": "Rochester Institute of Technology",
+        "location": "Rochester, NY",
+        "position": "Orientation Leader",
+        "startDate": "August 2022",
+        "endDate": "August 2022",
+        "responsibilities": [
+          "Led ice breaker activities for 25 new students",
+          "Served as a guide and role model for new students"
+        ],
+        "skills": [
+            "Leadership",
+            "Event Coordination",
+            "Team Collaboration",
+            "Communication",
+            "Mentorship"
+        ],
+        "relevant": true
+      },
+      {
+        "company": "JP Morgan Chase",
+        "location": "Virtual",
+        "position": "CIB Tech Emerging Talent Intern",
+        "startDate": "July 2021",
+        "endDate": "August 2021",
+        "responsibilities": [
+          "Worked in a team of 4 interns to manage request management software",
+          "Used Python to develop a machine learning algorithm to predict wait times for user-made requests",
+          "Leveraged agile development methods to ensure project completion by the given date"
+        ],
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Agile Development",
+            "Problem Solving",
+            "Team Collaboration"
+        ],
+        "relevant": true
+      }
+    ]
+}

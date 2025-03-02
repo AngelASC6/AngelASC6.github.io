@@ -29,7 +29,7 @@ const coreTechnicalSkills = {
 
 export default function Skills() {
     return(
-        <div className="h-auto z-20 relative bg-zinc-100 pt-10 pb-20">
+        <div id="skills" className="h-auto z-20 relative bg-stone-200 pt-10 pb-20">
             <Title title="Skills"/>
             <div id="content" className="grid grid-cols-2">
                 <div>
@@ -57,8 +57,9 @@ export default function Skills() {
                     </div>
                 </div>
                 <div>
+                    {/* TODO: Make skill wiggle to indicate to user that it is clickable */}
                     <h3 className="text-3xl font-light text-[#064523]">Certifications</h3>
-                    <div id="cloud" className="grid grid-cols-3 p-4 mx-auto w-5/6">
+                    <div id="certifications" className="grid grid-cols-3 p-4 mx-auto w-5/6">
                         {certifications.map((skill, index) => (
                             <SkillPill key={index} skill={skill.name} isLink="True" href={skill.url}/>
                         ))}

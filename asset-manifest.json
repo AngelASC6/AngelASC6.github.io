@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d164ea57.css",
+    "main.js": "/static/js/main.9807e8e4.js",
+    "static/js/488.d07c9134.chunk.js": "/static/js/488.d07c9134.chunk.js",
+    "static/media/Spring_2025_CareerFairHeadshots_373-2.jpg": "/static/media/Spring_2025_CareerFairHeadshots_373-2.328d936ff176eb2c6628.jpg",
+    "static/media/emote_angel.png": "/static/media/emote_angel.d04cc8b765e4f8af4a40.png",
+    "static/media/web_background.png": "/static/media/web_background.62d5e8f8194785f18128.png",
+    "index.html": "/index.html",
+    "main.d164ea57.css.map": "/static/css/main.d164ea57.css.map",
+    "main.9807e8e4.js.map": "/static/js/main.9807e8e4.js.map",
+    "488.d07c9134.chunk.js.map": "/static/js/488.d07c9134.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d164ea57.css",
+    "static/js/main.9807e8e4.js"
+  ]
+}

@@ -1,7 +1,8 @@
-export default function Button({ text, onClick, color = "#064523" }) {
+// Difficulties getting a passed in color attribute to work, for now using a static color
+export default function Button({ text, onClick }) {
     return (
         <button
-            className={`bg-[${color}] text-white py-3 px-4 rounded-md w-1/4 text-thin text-lg hover:bg-neutral-800 transition duration-300 ease-in-out`}
+            className={`bg-[#064523] text-white py-3 px-4 rounded-md w-1/4 text-thin text-lg hover:bg-neutral-800 transition duration-300 ease-in-out`}
             onClick={onClick}
         >
             {text}

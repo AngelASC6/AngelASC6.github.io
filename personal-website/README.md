@@ -1,3 +1,9 @@
+# Note for github pages
+To update github pages run npm run deploy, this will cause the predeploy and deploy
+scripts which are defined in package.json to run. This then causes the deploy script tp push the changes to the build folder which then pushes the folder to the gh-pages branch.
+
+see https://github.com/gitname/react-gh-pages for refrence on hosting a react app on gh-pages
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

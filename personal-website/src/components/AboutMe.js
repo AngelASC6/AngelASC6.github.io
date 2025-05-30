@@ -3,7 +3,7 @@ import headshot from "../assets/Spring_2025_CareerFairHeadshots_373-2.jpg"; // I
 
 export default function AboutMe() {
   return (
-    <div id="about" className="mt-[45vh] h-auto z-20 relative bg-stone-100 pt-10 pb-20">
+    <div id="about" className="h-screen z-20 relative bg-snow pt-10 pb-20">
       <Title title="About Me" />
       <div id="content" className="flex flex-row items-center justify-center">
         <div id="WhoAmI" className="flex flex-col items-center justify-center w-1/2 mx-10 self-start pt-12">

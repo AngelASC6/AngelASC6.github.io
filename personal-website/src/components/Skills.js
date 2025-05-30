@@ -59,7 +59,7 @@ export default function Skills() {
                 <div>
                     {/* TODO: Make skill wiggle to indicate to user that it is clickable */}
                     <h3 className="text-3xl font-light text-[#064523]">Certifications</h3>
-                    <div id="certifications" className="grid grid-cols-3 p-4 mx-auto w-5/6">
+                    <div id="certifications" className="grid grid-cols-3 p-4 mx-auto w-5/6 motion-safe:animate-[wiggle_1s_ease-in-out_infinite]">
                         {certifications.map((skill, index) => (
                             <SkillPill key={index} skill={skill.name} isLink="True" href={skill.url}/>
                         ))}

@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ef43167.css",
-    "main.js": "/static/js/main.563b036b.js",
+    "main.css": "/static/css/main.f586c59e.css",
+    "main.js": "/static/js/main.3140c324.js",
     "static/js/488.d07c9134.chunk.js": "/static/js/488.d07c9134.chunk.js",
     "static/media/Spring_2025_CareerFairHeadshots_373-2.jpg": "/static/media/Spring_2025_CareerFairHeadshots_373-2.328d936ff176eb2c6628.jpg",
     "static/media/emote_angel.png": "/static/media/emote_angel.d04cc8b765e4f8af4a40.png",
-    "static/media/web_background.png": "/static/media/web_background.62d5e8f8194785f18128.png",
     "index.html": "/index.html",
-    "main.0ef43167.css.map": "/static/css/main.0ef43167.css.map",
-    "main.563b036b.js.map": "/static/js/main.563b036b.js.map",
+    "main.f586c59e.css.map": "/static/css/main.f586c59e.css.map",
+    "main.3140c324.js.map": "/static/js/main.3140c324.js.map",
     "488.d07c9134.chunk.js.map": "/static/js/488.d07c9134.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ef43167.css",
-    "static/js/main.563b036b.js"
+    "static/css/main.f586c59e.css",
+    "static/js/main.3140c324.js"
   ]
 }

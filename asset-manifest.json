@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.f586c59e.css",
-    "main.js": "/static/js/main.3140c324.js",
+    "main.css": "/static/css/main.7667cc93.css",
+    "main.js": "/static/js/main.438fbe71.js",
     "static/js/488.d07c9134.chunk.js": "/static/js/488.d07c9134.chunk.js",
     "static/media/Spring_2025_CareerFairHeadshots_373-2.jpg": "/static/media/Spring_2025_CareerFairHeadshots_373-2.328d936ff176eb2c6628.jpg",
     "static/media/emote_angel.png": "/static/media/emote_angel.d04cc8b765e4f8af4a40.png",
     "index.html": "/index.html",
-    "main.f586c59e.css.map": "/static/css/main.f586c59e.css.map",
-    "main.3140c324.js.map": "/static/js/main.3140c324.js.map",
+    "main.7667cc93.css.map": "/static/css/main.7667cc93.css.map",
+    "main.438fbe71.js.map": "/static/js/main.438fbe71.js.map",
     "488.d07c9134.chunk.js.map": "/static/js/488.d07c9134.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f586c59e.css",
-    "static/js/main.3140c324.js"
+    "static/css/main.7667cc93.css",
+    "static/js/main.438fbe71.js"
   ]
 }

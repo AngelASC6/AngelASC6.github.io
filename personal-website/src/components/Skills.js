@@ -31,26 +31,26 @@ export default function Skills() {
     return(
         <div id="skills" className="h-auto z-20 relative bg-stone-200 pt-10 pb-20">
             <Title title="Skills"/>
-            <div id="content" className="grid grid-cols-2">
+            <div id="content" className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8">
                 <div>
-                    <h3 className="text-3xl font-light text-[#064523]">Programming Languages</h3>
-                    <div id="programmingLanguages" className="grid grid-cols-3 p-4 mx-auto w-5/6">
+                    <h3 className="text-2xl md:text-3xl font-light text-[#064523]">Programming Languages</h3>
+                    <div id="programmingLanguages" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6">
                         {coreTechnicalSkills.programmingLanguages.map((skill, index) => (
                             <SkillPill key={index} skill={skill} />
                         ))}
                     </div>
                 </div>
                 <div>
-                    <h3 className="text-3xl font-light text-[#064523]">Frameworks and Libraries</h3>
-                    <div id="frameworks" className="grid grid-cols-3 p-4 mx-auto w-5/6">
+                    <h3 className="text-2xl md:text-3xl font-light text-[#064523]">Frameworks and Libraries</h3>
+                    <div id="frameworks" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6">
                         {coreTechnicalSkills.frameworksAndLibraries.map((skill, index) => (
                             <SkillPill key={index} skill={skill} />
                         ))}
                     </div>
                 </div>
                 <div>
-                    <h3 className="text-3xl font-light text-[#064523]">Cloud Computing and DevOps</h3>
-                    <div id="cloudSkills" className="grid grid-cols-3 p-4 mx-auto w-5/6">
+                    <h3 className="text-2xl md:text-3xl font-light text-[#064523]">Cloud Computing and DevOps</h3>
+                    <div id="cloudSkills" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6">
                         {coreTechnicalSkills.cloudAndInfrastructure.map((skill, index) => (
                             <SkillPill key={index} skill={skill} />
                         ))}
@@ -58,14 +58,13 @@ export default function Skills() {
                 </div>
                 <div>
                     {/* TODO: Make skill wiggle to indicate to user that it is clickable */}
-                    <h3 className="text-3xl font-light text-[#064523]">Certifications</h3>
-                    <div id="certifications" className="grid grid-cols-3 p-4 mx-auto w-5/6 motion-safe:animate-[wiggle_1s_ease-in-out_infinite]">
+                    <h3 className="text-2xl md:text-3xl font-light text-[#064523]">Certifications</h3>
+                    <div id="certifications" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6 motion-safe:animate-[wiggle_1s_ease-in-out_infinite]">
                         {certifications.map((skill, index) => (
                             <SkillPill key={index} skill={skill.name} isLink="True" href={skill.url}/>
                         ))}
                     </div>
                 </div>
-
             </div>
         </div>
     )

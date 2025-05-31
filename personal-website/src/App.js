@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App pt-14 bg-zinc-100">
+    <div className="App pt-14 bg-zinc-100 w-full max-w-full overflow-x-hidden">
       <Header />
       <Billboard />
       <AboutMe />

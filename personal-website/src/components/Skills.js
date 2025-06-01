@@ -1,69 +1,88 @@
 import SkillPill from "./SkillPill";
 import Title from "./Title";
+import { motion } from "framer-motion";
 
-const coreTechnicalSkills = {
-    programmingLanguages: [
-      "Python",
-      "Java",
-      "JavaScript",
-      "HTML/CSS",
-      "PostgreSQL",
-      "C",
-      "RESTful API",
-    ],
-    frameworksAndLibraries: ["React.js", "Angular", "Node.js"],
-    cloudAndInfrastructure: ["Azure", "AWS", "Terraform","Docker"]
+
+const coreTechnicalSkills = [
+    {
+        title: "Programming Languages",
+        skills: [ "Python", "Java","JavaScript", "HTML/CSS","SQL","C","RESTful API"]
+    },
+    {
+        title: "Frameworks and Libraries",
+        skills: ["React.js", "Angular", "Node.js"],
+    },
+    {
+        title: "Cloud Computing and DevOps",
+        skills: ["Azure", "AWS", "Terraform","Docker"]
+    }
     // Leaving this here for future implementation as more development tools are learned
     // developmentTools: ["GitHub", "Command Line"],
-  };
+];
   
-  const softwareDevelopmentExpertise = [
-    "Full-Stack Website Development (Front-End & Back-End)",
-    "Agile Development Practices",
-    "Object-Oriented Programming",
-  ];
-  
+// TODO: Add certifications to the skills section above ^^
   const certifications = [{name:"Azure Fundamentals",url:"https://learn.microsoft.com/en-us/users/angelvasquez-2832/credentials/60617288ab6e4c24?ref=https%3A%2F%2Fwww.linkedin.com%2F",
     
   }];
+
+//   Animation variants for the skill pills
+const containerVariants = {
+    hidden: {},
+    show: {
+        transition: {
+            staggerChildren: 0.2,
+            delayChildren: 0.1,
+        },
+    }
+}
+
+const skillVariants = {
+    hidden: { opacity: 0, x: -10 },
+    show: {
+        opacity: 1,
+        x: 0,
+        transition: {duration: 1, ease: "easeOut"}
+    }
+}
+
 
 export default function Skills() {
     return(
         <div id="skills" className="h-auto z-20 relative bg-stone-200 pt-10 pb-20">
             <Title title="Skills"/>
             <div id="content" className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8">
-                <div>
-                    <h3 className="text-2xl md:text-3xl font-light text-[#064523]">Programming Languages</h3>
-                    <div id="programmingLanguages" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6">
-                        {coreTechnicalSkills.programmingLanguages.map((skill, index) => (
-                            <SkillPill key={index} skill={skill} />
-                        ))}
+                {coreTechnicalSkills.map((section, index) => (
+                    <div key={index}>
+                        <h3 className="text-2xl md:text-3xl font-light text-[#064523]">{section.title}</h3>
+                        <motion.div d="programmingLanguages" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6"
+                        variants={containerVariants}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: true}}
+                        >
+                            {section.skills.map((skill, index) => (
+                                <SkillPill key={index} skill={skill} variants={skillVariants} />
+                            ))}
+                        </motion.div>
                     </div>
-                </div>
+                ))}
                 <div>
-                    <h3 className="text-2xl md:text-3xl font-light text-[#064523]">Frameworks and Libraries</h3>
-                    <div id="frameworks" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6">
-                        {coreTechnicalSkills.frameworksAndLibraries.map((skill, index) => (
-                            <SkillPill key={index} skill={skill} />
-                        ))}
-                    </div>
-                </div>
-                <div>
-                    <h3 className="text-2xl md:text-3xl font-light text-[#064523]">Cloud Computing and DevOps</h3>
-                    <div id="cloudSkills" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6">
-                        {coreTechnicalSkills.cloudAndInfrastructure.map((skill, index) => (
-                            <SkillPill key={index} skill={skill} />
-                        ))}
-                    </div>
-                </div>
-                <div>
-                    {/* TODO: Make skill wiggle to indicate to user that it is clickable */}
                     <h3 className="text-2xl md:text-3xl font-light text-[#064523]">Certifications</h3>
-                    <div id="certifications" className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6 motion-safe:animate-[wiggle_1s_ease-in-out_infinite]">
+                    <motion.div
+                        id="certifications"
+                        className="grid grid-cols-2 sm:grid-cols-3 p-4 mx-auto w-full md:w-5/6 motion-safe:animate-[wiggle_1s_ease-in-out_infinite]"
+                        variants={containerVariants}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: true }}>
                         {certifications.map((skill, index) => (
-                            <SkillPill key={index} skill={skill.name} isLink="True" href={skill.url}/>
+                            <motion.div
+                                key={index}
+                                variants={skillVariants}>
+                                <SkillPill skill={skill.name} isLink="True" href={skill.url} />
+                            </motion.div>
                         ))}
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </div>

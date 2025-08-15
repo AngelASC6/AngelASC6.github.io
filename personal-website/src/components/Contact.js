@@ -29,19 +29,19 @@ const ContactForm = () => {
 
   return (
     <div id="contact" className="h-auto z-20 relative bg-stone-100 pt-10 pb-20">
-        <Title title="Contact Me"/>
-        <form
+      <Title title="Contact Me" />
+      <form
         onSubmit={handleSubmit}
         className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-lg mt-5"
-        >
+      >
         <div className="mb-4">
-            <label
+          <label
             htmlFor="name"
             className="block text-sm font-medium text-gray-700"
-            >
+          >
             Name
-            </label>
-            <input
+          </label>
+          <input
             type="text"
             id="name"
             name="name"
@@ -50,16 +50,16 @@ const ContactForm = () => {
             placeholder="Enter your name"
             required
             className="mt-1 block w-full rounded-md border-gray-300 border-2 h-10 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-            />
+          />
         </div>
         <div className="mb-4">
-            <label
+          <label
             htmlFor="email"
             className="block text-sm font-medium text-gray-700"
-            >
+          >
             Email
-            </label>
-            <input
+          </label>
+          <input
             type="email"
             id="email"
             name="email"
@@ -68,17 +68,16 @@ const ContactForm = () => {
             placeholder="Enter your email"
             required
             className="mt-1 block w-full rounded-md border-gray-300 border-2 h-10 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-
-            />
+          />
         </div>
         <div className="mb-6">
-            <label
+          <label
             htmlFor="content"
             className="block text-sm font-medium text-gray-700"
-            >
+          >
             Message
-            </label>
-            <textarea
+          </label>
+          <textarea
             id="content"
             name="content"
             value={formData.content}
@@ -87,15 +86,15 @@ const ContactForm = () => {
             rows="5"
             required
             className="border-gray-300 border-2 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
-            ></textarea>
+          ></textarea>
         </div>
         <button
-            type="submit"
-            className="w-full bg-[#14AE5C] text-white py-2 px-4 rounded-md hover:bg-stone-800 focus:outline-none transition duration-300 ease-in-out"
+          type="submit"
+          className="w-full bg-[#14AE5C] text-white py-2 px-4 rounded-md hover:bg-stone-800 focus:outline-none transition duration-300 ease-in-out"
         >
-            Send Message
+          Send Message
         </button>
-        </form>
+      </form>
     </div>
   );
 };

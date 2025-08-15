@@ -18,25 +18,27 @@ export default function AboutMe() {
         >
           <div>
             <p className="text-[#393939] text-lg text-center">
-              Hi, I’m Angel, a fourth-year student at RIT majoring in technology
-              and design. I’m passionate about web development and have gained
-              hands-on experience using technologies like React and Tailwind. I
-              also have a strong foundation in cloud computing, having earned my
-              Azure Fundamentals certification, and I'm always looking to deepen
-              my technical expertise through projects and coursework.
+              Hi, I’m Angel — a software engineering student at Rochester
+              Institute of Technology, graduating in May 2026. I’m passionate
+              about building things that are both functional and user-friendly,
+              whether that’s a polished front-end interface, a well-structured
+              API, or a fully deployed cloud application.
               <br />
               <br />
-              In addition to my web development work, I’m focused on creating
-              intuitive user interfaces and exploring ways to integrate APIs
-              into digital experiences. I strive to write clean, efficient code
-              while ensuring the end product is user-friendly and accessible.
+              Professionally, I’ve had the opportunity to work in both corporate
+              and academic settings — developing a full-stack application during
+              my summer co-op at RIT, implementing and developing process
+              automations at Wegmans, and even applying machine learning at
+              JPMorgan Chase. These experiences have taught me not just how to
+              code, but how to collaborate, adapt, and deliver results in
+              different environments.
               <br />
               <br />
-              Right now, I’m actively seeking a summer internship where I can
-              apply my skills and continue learning in a professional setting.
-              If you’re looking for someone with a strong technical background
-              and a passion for design, feel free to get in touch. I’d love to
-              connect and discuss potential opportunities.
+              Right now, I’m searching for full time Software Engineering
+              opportunities for after I graduate in the Spring. If you’re
+              looking for someone with a strong technical and process background and a
+              passion for design, feel free to get in touch. I’d love to connect
+              and discuss potential opportunities.
             </p>
             <p className="text-[#393939] text-lg text-center mt-4">
               Feel free to also check out my

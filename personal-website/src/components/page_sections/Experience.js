@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import ExperienceCard from "./ExperienceCard";
-import Title from "./Title";
-import experienceData from "../experience.json";
-import Button from "./Button";
+import ExperienceCard from "../ExperienceCard";
+import Title from "../Title";
+import experienceData from "../../experience.json";
+import Button from "../Button";
 
 export default function Experience() {
   const [showAll, setShowAll] = useState(false);

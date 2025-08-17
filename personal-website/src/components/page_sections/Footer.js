@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 
-import NavOptions from "../navOptions.json";
+import NavOptions from "../../navOptions.json";
 
 const navOptions = NavOptions.options;
 const socialMedia = NavOptions.socials;

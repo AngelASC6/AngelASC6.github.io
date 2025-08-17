@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "title": "Personal Website",
+      "image": "personal_website_photo.png",
+      "description": "A personal portfolio website to showcase my projects and skills.",
+      "skills": ["React", "JavaScript", "CSS", "HTML"],
+      "link": "https://angel-vasquez.vercel.app/",
+      "slug": "personal-website",
+      "markdownFile": "personal-website.md"
+    },
+    {
+      "title": "TA Portal",
+      "image": "personal_website_photo.png",
+
+      "description": "",
+      "link": "https://angel-vasquez.vercel.app/"
+    }
+  ]
+}

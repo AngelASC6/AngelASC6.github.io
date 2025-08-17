@@ -1,5 +1,5 @@
-import Title from "./Title";
-import headshot from "../assets/Spring_2025_CareerFairHeadshots_373-2.jpg"; // Import the image
+import Title from "../Title";
+import headshot from "../../assets/Spring_2025_CareerFairHeadshots_373-2.jpg"; // Import the image
 
 export default function AboutMe() {
   return (

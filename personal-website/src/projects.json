@@ -1,19 +1,21 @@
 {
   "projects": [
     {
+      "id": "personal-website",
       "title": "Personal Website",
       "image": "personal_website_photo.png",
       "description": "A personal portfolio website to showcase my projects and skills.",
-      "skills": ["React", "JavaScript", "CSS", "HTML"],
+      "skills": ["React", "JavaScript", "CSS", "HTML","Tailwind CSS"],
       "link": "https://angel-vasquez.vercel.app/",
       "slug": "personal-website",
       "markdownFile": "personal-website.md"
     },
     {
+      "id": "ta-portal",
       "title": "TA Portal",
-      "image": "personal_website_photo.png",
-
-      "description": "",
+      "image": "ta_portal.png",
+      "description": "A portal for Faulty to find students to be TAs for their courses and for students to find TA positions.",
+      "skills":["Next.js", "Tailwind CSS", "Prisma", "MySQL", "Docker"],
       "link": "https://angel-vasquez.vercel.app/"
     }
   ]

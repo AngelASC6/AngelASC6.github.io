@@ -1,7 +1,9 @@
+import { Link } from "react-router";
 import SkillPill from "./SkillPill";
 
-export default function ProjectCard({ image, title, description, isLive, skills }) {
+export default function ProjectCard({ image, title, description, isLive, skills,link }) {
   return ( 
+    <Link to={link}>
     <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:cursor-pointer m-4 max-w-md">
       <div className="h-48 overflow-hidden relative">
         <img
@@ -20,5 +22,6 @@ export default function ProjectCard({ image, title, description, isLive, skills 
         </div>
       </div>
     </div>
+    </Link>
   );
 }

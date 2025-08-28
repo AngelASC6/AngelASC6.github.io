@@ -8,6 +8,7 @@ import Experience from './components/page_sections/Experience';
 import Footer from './components/page_sections/Footer';
 import { Analytics } from "@vercel/analytics/react"
 import Projects from './components/page_sections/Projects';
+import ProjectPage from './components/ProjectPage';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
               <Experience />
             </>
           } />
-          {/* <Route path="/project/:slug" element={<ProjectPage />} /> */}
+          <Route path="/projects/:projectName" element={<ProjectPage />} />
         </Routes>
         <Footer />
       </div>

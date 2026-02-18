@@ -9,7 +9,6 @@ export default function Header() {
 
   const handleHamburgerClick = () => {
     setIsOpen(!isOpen);
-    console.log("Hamburger clicked");
   };
 
   return (

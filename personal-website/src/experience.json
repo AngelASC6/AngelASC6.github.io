@@ -3,13 +3,14 @@
     {
       "company": "Rochester Institute of Technology",
       "location": "Rochester, NY",
-      "position": "Software Engineer Summer Co-Op",
+      "position": "Full-Stack Web Engineer",
       "startDate": "June 2025",
       "endDate": "August 2025",
+      "description":"RIT needed a centralized location to allow faculty to better find suitable candidates for open Teaching Assistant positions and for current TAs to better access course related responsibilities. Developed a full-stack Next.js-based Course Assistant portal as part of a 4-person team.",
       "responsibilities": [
-        "Developed a full-stack Next.js-based Course Assistant portal as part of a 4-person team",
-        "Managed backend data efficiently using MariaDB and MySQL",
-        "Containerized backend services with Docker to enhance deployment and scalability"
+        "Designed a user workflow engine, translating requirements into technical specifications and working solutions",
+        "Implemented backend calls and constructed main frontend portal and common usability standards",
+        "Resulting application met stakeholder requirements with plans for release to entire department"
       ],
       "skills": [
         "NextJS",
@@ -17,7 +18,6 @@
         "MySQL",
         "Prisma",
         "Docker",
-        "TailwindCSS",
         "System Design"
       ],
       "relevant": true
@@ -25,13 +25,14 @@
     {
       "company": "Wegmans Food Markets",
       "location": "Rochester, NY",
-      "position": "IT Automation Co-Op",
+      "position": "IT Automation Engineer",
       "startDate": "June 2023",
       "endDate": "December 2023",
+      "description":"Brought on to reduce manual processing overhead and improve efficiency across the IT department where they experienced high volumes of repetitive data transformations. Worked with a team of 4 Engineers to Implement automation using XSLT and XPATH to streamline business processes.",
       "responsibilities": [
-        "Implemented automation using XSLT and XPATH to streamline business processes",
-        "Worked with XML and JSON data structures to manage user and form input data",
-        "Conducted process review, technical documentation, application administration, and testing, in collaboration with the IT team"
+        "Conducted process review, technical documentation, application administration, and testing",
+        "Utilized automation orchestration tools to implement system designs, streamlining tasks such as server decommissioning",
+        "Enhanced overall team velocity metric resulting in 20% reduction of ticket turn around time"
       ],
       "skills": [
         "Azure DevOps",
@@ -50,7 +51,7 @@
     {
       "company": "Rochester Institute of Technology",
       "location": "Rochester, NY",
-      "position": "Alumni Relations Office Call Center",
+      "position": "Alumni Relations Representative",
       "startDate": "September 2022",
       "endDate": "May 2023",
       "responsibilities": [
@@ -90,7 +91,7 @@
     {
       "company": "JP Morgan Chase",
       "location": "Virtual",
-      "position": "CIB Tech Emerging Talent Intern",
+      "position": "Machine Learning Engineer",
       "startDate": "July 2021",
       "endDate": "August 2021",
       "responsibilities": [
@@ -105,7 +106,7 @@
         "Problem Solving",
         "Team Collaboration"
       ],
-      "relevant": true
+      "relevant": false
     }
   ]
 }

@@ -86,7 +86,7 @@
         "Communication",
         "Mentorship"
       ],
-      "relevant": true
+      "relevant": false
     },
     {
       "company": "JP Morgan Chase",
@@ -106,7 +106,7 @@
         "Problem Solving",
         "Team Collaboration"
       ],
-      "relevant": false
+      "relevant": true
     }
   ]
 }

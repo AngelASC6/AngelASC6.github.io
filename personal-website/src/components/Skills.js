@@ -12,12 +12,11 @@ const coreTechnicalSkills = [
       "HTML/CSS",
       "SQL",
       "C",
-      "RESTful API",
     ],
   },
   {
     title: "Frameworks and Libraries",
-    skills: ["React.js", "Angular", "Node.js"],
+    skills: ["React.js", "Angular", "Node.js", "RESTful API"]
   },
   {
     title: "Cloud Computing and DevOps",

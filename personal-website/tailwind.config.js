@@ -13,7 +13,7 @@ module.exports = {
             color: "#1A1A1A",
             maxWidth: "100%",
             h1: {
-              color: "#064523", 
+              color: "#064523",
               fontWeight: "600",
               fontFamily: "Poppins",
               marginBottom: "1.5rem",
@@ -27,29 +27,22 @@ module.exports = {
               marginTop: "2rem",
             },
             h3: {
-              color: "#064523", 
+              color: "#064523",
               fontFamily: "Poppins",
               marginBottom: "1rem",
               marginTop: "1.75rem",
             },
             a: {
-              color: "#064523", 
-              "&:hover": {
-                color: "#7BAE5F",
-              },
-            },
-            strong: {
               color: "#064523",
+              "&:hover": { color: "#7BAE5F" },
             },
-            p: {
-              marginTop: "1rem",
-              marginBottom: "1rem",
-            },
+            strong: { color: "#064523" },
+            p: { marginTop: "1rem", marginBottom: "1rem" },
           },
         },
         lg: {
           css: {
-            h1: { color: "#1e40af" }, // darker blue for large prose
+            h1: { color: "#1e40af" },
           },
         },
       },
@@ -66,6 +59,7 @@ module.exports = {
       animation: {
         fade: "fadeIn .6s ease-out forwards",
         wiggle: "wiggle 1s ease-in-out infinite",
+        "modal-in": "modalIn 0.2s ease-out forwards",
       },
       keyframes: {
         fadeIn: {
@@ -75,6 +69,10 @@ module.exports = {
         wiggle: {
           "0%, 100%": { transform: "rotate(-1deg)" },
           "50%": { transform: "rotate(1deg)" },
+        },
+        modalIn: {
+          from: { opacity: "0", transform: "scale(0.95) translateY(10px)" },
+          to: { opacity: "1", transform: "scale(1) translateY(0)" },
         },
       },
     },

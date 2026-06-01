@@ -10,6 +10,7 @@ import { Analytics } from "@vercel/analytics/react"
 import Projects from './components/page_sections/Projects';
 import ProjectPage from './components/ProjectPage';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+import ProjectModal from './components/ProjectModal';
 
 function App() {
   return (
@@ -17,18 +18,14 @@ function App() {
       <div className="App pt-14 bg-zinc-100 w-full max-w-full overflow-x-hidden">
         <Analytics/>
         <Header />
-        <Routes>
-          <Route path="/" element={
             <>
               <Billboard />
+              <ProjectModal/>
               <AboutMe />
               <Projects />
               <Skills />
               <Experience />
             </>
-          } />
-          <Route path="/projects/:projectName" element={<ProjectPage />} />
-        </Routes>
         <Footer />
       </div>
     </HashRouter>

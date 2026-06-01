@@ -5,6 +5,10 @@
             "id":"about"
         },
         {
+            "text":"Projects",
+            "id":"projects"
+        },
+        {
             "text":"Skills",
             "id":"skills"
         },

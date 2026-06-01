@@ -45,7 +45,7 @@ export default function AboutMe() {
               <a
                 href="https://www.linkedin.com/in/angel-vasquez03/"
                 className="hover:text-racing-green text-[#158749] font-semibold"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 LinkedIn{" "}
@@ -54,7 +54,7 @@ export default function AboutMe() {
               <a
                 href="https://github.com/AngelASC6/"
                 className="hover:text-racing-green text-[#158749] font-semibold"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 {" "}
                 Github

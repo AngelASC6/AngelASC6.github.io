@@ -8,13 +8,10 @@ import Experience from './components/page_sections/Experience';
 import Footer from './components/page_sections/Footer';
 import { Analytics } from "@vercel/analytics/react"
 import Projects from './components/page_sections/Projects';
-import ProjectPage from './components/ProjectPage';
-import { HashRouter, Routes, Route } from 'react-router-dom';
 import ProjectModal from './components/ProjectModal';
 
 function App() {
   return (
-    <HashRouter>
       <div className="App pt-14 bg-zinc-100 w-full max-w-full overflow-x-hidden">
         <Analytics/>
         <Header />
@@ -28,7 +25,6 @@ function App() {
             </>
         <Footer />
       </div>
-    </HashRouter>
   );
 }
 

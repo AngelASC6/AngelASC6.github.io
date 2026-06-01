@@ -1,7 +1,7 @@
 import SkillPill from "./SkillPill";
 
 export default function ProjectCard({ project, onClick }) {
-  const {image, title, shortDesc, skills, isLive} = project;
+  const {image, title, shortDesc, skills} = project;
   return ( 
     <div
     onClick={() => onClick(project)}
@@ -10,7 +10,7 @@ export default function ProjectCard({ project, onClick }) {
         <img
           className="w-full h-full object-cover"
           src={image}
-          alt={`Photo for ${title}`}
+          alt={`${title}`}
         />
       </div>
       <div className="p-6">

@@ -1,25 +1,30 @@
 import './App.css';
-import Header from './components/Header';
-import Billboard from './components/Billboard';
-import AboutMe from './components/AboutMe';
+import Header from './components/page_sections/Header';
+import Billboard from './components/page_sections/Billboard';
+import AboutMe from './components/page_sections/AboutMe';
 import Skills from './components/Skills';
-import Experience from './components/Experience';
+import Experience from './components/page_sections/Experience';
 // import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Footer from './components/page_sections/Footer';
 import { Analytics } from "@vercel/analytics/react"
+import Projects from './components/page_sections/Projects';
+import ProjectModal from './components/ProjectModal';
 
 function App() {
   return (
-    <div className="App pt-14 bg-zinc-100 w-full max-w-full overflow-x-hidden">
-      <Analytics/>
-      <Header />
-      <Billboard />
-      <AboutMe />
-      <Skills />
-      <Experience />
-      {/* <Contact /> */}
-      <Footer />
-    </div>
+      <div className="App pt-14 bg-zinc-100 w-full max-w-full overflow-x-hidden">
+        <Analytics/>
+        <Header />
+            <>
+              <Billboard />
+              <ProjectModal/>
+              <AboutMe />
+              <Projects />
+              <Skills />
+              <Experience />
+            </>
+        <Footer />
+      </div>
   );
 }
 

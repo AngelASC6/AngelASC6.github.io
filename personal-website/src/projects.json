@@ -1,0 +1,26 @@
+{
+  "projects": [
+      {
+      "id": "musedle",
+      "title": "Musedle",
+      "image": "musedle.png",
+      "shortDesc": "A web app where users authenticate with Spotify and play a guessing game based on their listening history.",
+      "description": "Musedle is a Spotify Based guessing game that has users listen to a random song saved to their spotify account and has them guess the song. It utilizes Spotify's OAuth API to allow users to log in and retrieve user account information. Using Spotify's Web Player API it is able to play the songs in the browser. \n Currently due to limitations set by Spotify, the app can only be used by users approved by the developer. While there are plans in the future to modify how the app works to avoid requiring a spotify account, if you are interested in using the app please reach out to me with an email tied to a spotify premium account.",
+      "skills": ["React", "Tailwind","NodeJS","SpotifyAPI","Vercel","Render" ],
+      "liveUrl": "https://musedle.vercel.app/",
+      "githubUrl": "https://github.com/AngelASC6/Musedle",
+      "isLive": true
+    },
+    {
+      "id": "ta-portal",
+      "title": "TA Portal",
+      "image": "ta_portal.png",
+      "shortDesc": "A portal connecting faculty with students seeking TA positions.",
+      "description": "A full-stack web application that streamlines the TA hiring process. Faculty can post available TA positions for their courses, and students can browse and apply for roles that match their skills and schedule. Built with Next.js and Prisma with a MySQL database, containerized with Docker for consistent local development.",
+      "skills": ["Next.js", "Tailwind CSS", "Prisma", "MySQL", "Docker"],
+      "liveUrl": "",
+      "githubUrl": "",
+      "isLive": false
+    }
+  ]
+}

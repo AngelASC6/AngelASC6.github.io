@@ -1,5 +1,5 @@
-import emoteAngel from "../assets/emote_angel.png";
-import NavOptions from "../navOptions.json";
+import emoteAngel from "../../assets/emote_angel.png";
+import NavOptions from "../../navOptions.json";
 import { Link } from "react-scroll";
 import { useState } from "react";
 const navOptions = NavOptions.options;
